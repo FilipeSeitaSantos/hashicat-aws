@@ -5,7 +5,7 @@ module "s3-bucket" {
   # insert required variables here
   bucket = "my-s3-bucket"
   acl    = "private"
-
+  bucket_prefix = "FSS_S3"
   versioning = {
     enabled = true
   }
